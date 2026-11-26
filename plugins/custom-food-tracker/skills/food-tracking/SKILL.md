@@ -36,7 +36,7 @@ Every item can have an optional `meal` and `dish`, which group the day as meal â
 - Set `meal` when the user names one ("for lunch") or it's clear from what they say. Use plain names such as breakfast, lunch, dinner and snack, or the user's own word. Don't guess a meal from the time of day.
 - For something made of several foods, like a sandwich or a burrito bowl, log each part as its own item with the same `dish` and `meal`, e.g. "turkey sandwich". A single food needs no dish.
 - Reuse the names already on the day. When adding to an earlier meal or dish, check `list_logged_foods` for its exact names.
-- Another of the same dish ("I had a second sandwich"): multiply each of its parts' `servings` in one `update_logged_food` call. A different second dish of the same kind in the same meal gets its own name, e.g. "turkey sandwich 2".
+- Another of a dish already logged ("I had a second sandwich"): log its parts again as a new dish with its own name, e.g. "turkey sandwich 2", with the same foods and amounts unless the user says otherwise. Don't change the servings of the first dish's parts.
 
 ## Fixing and removing
 
