@@ -5,7 +5,6 @@ A plugin marketplace for Claude.
 ## Add it
 
 - **claude.ai or the desktop app**: go to **Customize > Plugins > Add > Add marketplace** and enter `https://github.com/PrinceManfred/claude-plugins`, then install the plugins you want.
-- **Claude Code**: run `/plugin marketplace add PrinceManfred/claude-plugins`, then `/plugin install <plugin>@claude-plugins`. From a shell, the same commands are `claude plugin marketplace add PrinceManfred/claude-plugins` and `claude plugin install <plugin>@claude-plugins`.
 
 ## Plugins
 
