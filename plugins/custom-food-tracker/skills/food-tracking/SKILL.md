@@ -13,7 +13,7 @@ The Custom Food Tracker keeps the user's custom foods, what they eat each day, a
 
 ## Before logging
 
-If the user doesn't say how much they had, ask before logging. With several foods, ask about all the missing quantities at once. Don't guess serving sizes, and don't call `log_food` until the quantities are confirmed.
+If the user doesn't say how much they had and it can't be easily inferred, ask before logging. With several foods, ask about all the missing quantities at once. Don't call `log_food` until the quantities are confirmed.
 
 ## Where nutrition values come from
 
