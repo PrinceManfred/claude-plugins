@@ -4,10 +4,11 @@ Log what you eat, save your own foods and recipes, and track your daily nutritio
 
 ## Use it
 
-1. Install the plugin. On claude.ai or the desktop app, add the marketplace `https://github.com/PrinceManfred/ai-plugins` from **Customize > Plugins > Add > Add marketplace** and install **Custom Food Tracker**. In Claude Code, run:
+1. Install the plugin. On claude.ai or the desktop app, add the marketplace `https://github.com/PrinceManfred/claude-plugins` from **Customize > Plugins > Add > Add marketplace** and install **Custom Food Tracker**. In Claude Code, run:
 
    ```
-   /plugin install custom-food-tracker --marketplace PrinceManfred/ai-plugins
+   /plugin marketplace add PrinceManfred/claude-plugins
+   /plugin install custom-food-tracker@ai-plugins
    ```
 
    Then open its **Connectors** tab and connect **custom-food-tracker**. Sign in when asked.

@@ -1,11 +1,11 @@
-# ai-plugins
+# claude-plugins
 
-A plugin marketplace for Claude.
+A plugin marketplace for Claude. Its marketplace name is `ai-plugins`.
 
 ## Add it
 
-- **claude.ai or the desktop app**: go to **Customize > Plugins > Add > Add marketplace** and enter `https://github.com/PrinceManfred/ai-plugins`, then install the plugins you want.
-- **Claude Code**: run `/plugin install <plugin> --marketplace PrinceManfred/ai-plugins`, or `claude plugin marketplace add PrinceManfred/ai-plugins` and then `claude plugin install <plugin>@ai-plugins`.
+- **claude.ai or the desktop app**: go to **Customize > Plugins > Add > Add marketplace** and enter `https://github.com/PrinceManfred/claude-plugins`, then install the plugins you want.
+- **Claude Code**: run `/plugin marketplace add PrinceManfred/claude-plugins`, then `/plugin install <plugin>@ai-plugins`. From a shell, the same commands are `claude plugin marketplace add PrinceManfred/claude-plugins` and `claude plugin install <plugin>@ai-plugins`.
 
 ## Plugins
 
