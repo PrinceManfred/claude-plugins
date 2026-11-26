@@ -26,6 +26,7 @@ Fill in every nutrient you have a value for. If a value is uncertain or estimate
 ## Logging
 
 - Log everything from one meal or message in a single `log_food` call, one entry in `items` per food. Never make one call per food.
+- When logging a custom food id never set the description unless explicitly asked by the user.
 - Confirm briefly, for example "Logged — 1,240 cal so far, 560 remaining." With no calorie goal saved, just "Logged — 1,240 cal so far."
 
 ## Fixing and removing
