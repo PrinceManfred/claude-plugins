@@ -11,7 +11,7 @@ Log what you eat, save your own foods and recipes, and track your daily nutritio
    ```
 
    Then open its **Connectors** tab and connect **custom-food-tracker**. Sign in when asked.
-2. Tell Claude what you ate, for example "I had two eggs and toast for breakfast". Claude logs it and shows a Nutrition Facts label for the day.
+2. Tell Claude what you ate, for example "I had two eggs and toast for breakfast". Claude logs it under that meal and shows a Nutrition Facts label for the day, with your foods grouped by meal and dish.
 3. Ask for a day, a week, or your averages by weekday to see totals and charts against your goals. Tell Claude a goal, such as "150 g of protein a day", and it saves it.
 
 Each view has a share icon that opens it as a page in your browser, where you can share an image or a read-only link.
