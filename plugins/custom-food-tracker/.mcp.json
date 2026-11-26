@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "custom-food-tracker": {
+      "type": "http",
+      "url": "https://nutrition.castleofotranto.net/mcp"
+    }
+  }
+}
