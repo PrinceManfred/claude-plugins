@@ -1,7 +1,7 @@
 {
   "name": "custom-food-tracker",
   "displayName": "Custom Food Tracker",
-  "version": "1.3.3",
+  "version": "1.4.0",
   "description": "Log what you eat, save custom foods, and track daily nutrition against your goals, with Nutrition Facts labels and charts in the chat.",
   "author": {
     "name": "PrinceManfred",
